@@ -1,0 +1,52 @@
+.outerdiv{
+    position: sticky;
+    bottom  :0;
+    width: 100%;
+    background-color: #24292e;
+    padding-top: 6px;
+    
+    
+    border-top : 1px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.imageUpload{
+    display: flex;
+    flex-direction: column;
+    width : 90%;
+    margin-left : auto;
+    margin-right: auto;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    background-color: transparent;
+    justify-content: center;
+   
+}
+
+.imageUpload input{
+    border: none;
+    outline:none;
+    border-radius: 2px;
+}
+
+
+.imageUpload__progress{
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+.file{
+    border-radius: 5px;
+    color : white;
+    margin-top :2px;
+    margin-bottom : 2px;
+}
+
+.imageUpload Button{
+    background-color: #2EA44F;
+    width:50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom : 2px;
+}
